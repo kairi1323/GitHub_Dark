@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DLASC-SHS Student Council</title>
+  <link rel="stylesheet" href="css/landing.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top utility bar -->
+  <div class="topbar" aria-label="School utility bar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">DLASC‑SHS • Student Council</div>
+      <div class="topbar-right">
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Primary navigation -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="DLASC-SHS Home">
+        <span class="brand-logo" aria-hidden="true">
+          <!-- Crest-like logo -->
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#26a269"/>
+                <stop offset="100%" stop-color="#0b5d3b"/>
+              </linearGradient>
+            </defs>
+            <path d="M12 3l8 4v5c0 5-3.5 8.1-8 9-4.5-.9-8-4-8-9V7l8-4Z" fill="url(#g1)"/>
+            <path d="M8.2 11h7.6M10.2 8.8h3.6M9.2 14h5.6" stroke="#ffc72c" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">DLASC‑SHS</span>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation" />
+      <label for="menu-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="primary-nav" role="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#calendar">Calendar</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero / Upper section -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="badge">Student Council</span>
+          <h1 id="hero-title">United in Service. Leading with Purpose.</h1>
+          <p class="subtitle">Empowering student voices and building a vibrant, inclusive school community.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#events">Explore Events</a>
+            <a class="btn outline" href="#about">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-mark">
+            <div class="mark-ring"></div>
+            <div class="mark-core">
+              <svg width="72" height="72" viewBox="0 0 24 24" fill="none">
+                <path d="M12 3l8 4v5c0 5-3.5 8.1-8 9-4.5-.9-8-4-8-9V7l8-4Z" fill="#26a269" opacity="0.18"/>
+                <path d="M12 3l8 4v5c0 5-3.5 8.1-8 9-4.5-.9-8-4-8-9V7l8-4Z" stroke="#0b5d3b" stroke-width="1.6"/>
+                <path d="M8.5 11.2h7M10.5 8.8h3.2M9.5 14h5" stroke="#ffc72c" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome message -->
+    <section id="about" class="welcome" aria-labelledby="welcome-title">
+      <div class="container">
+        <h2 id="welcome-title">Welcome from the Student Council</h2>
+        <p>
+          Benvenuti! We are the DLASC‑SHS Student Council — dedicated to representing our student body,
+          fostering collaboration, and organizing programs that make a meaningful impact across campus.
+          This year, we champion inclusivity, leadership, and student-led initiatives that inspire excellence.
+        </p>
+      </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links" aria-labelledby="quick-links-title">
+      <div class="container">
+        <h2 id="quick-links-title">Quick Links</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="icon" aria-hidden="true">🏫</div>
+            <h3>About Us</h3>
+            <p>Meet the council, our mission, and committees.</p>
+            <a class="cta" href="#about">Learn more</a>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">🗓️</div>
+            <h3>Calendar</h3>
+            <p>Stay updated with school and council dates.</p>
+            <a class="cta" href="#calendar">View calendar</a>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">🎉</div>
+            <h3>Events</h3>
+            <p>Join assemblies, drives, and student activities.</p>
+            <a class="cta" href="#events">See events</a>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">📬</div>
+            <h3>Contact</h3>
+            <p>Reach out to the council with ideas or questions.</p>
+            <a class="cta" href="#contact">Contact us</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Anchor placeholders for navigation targets -->
+    <section id="calendar" class="section-muted" aria-label="Calendar"><div class="container">Calendar placeholder</div></section>
+    <section id="events" class="section-muted" aria-label="Events"><div class="container">Events placeholder</div></section>
+    <section id="contact" class="section-muted" aria-label="Contact"><div class="container">Contact placeholder</div></section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">© 2025 DLASC‑SHS Student Council</div>
+  </footer>
+</body>
+</html>
